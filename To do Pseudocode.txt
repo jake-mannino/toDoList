@@ -1,0 +1,224 @@
+local storage todo list pseudocode
+
+TODO LIST  react project
+
+filter
+
+different instances
+
+all, active, completed, lists
+
+reactive code
+
+items left
+
+completed
+
+
+
+
+components
+		only make components for things that will appear on page more than once
+	
+
+
+	app
+	search bar
+
+	list (three different instances 
+		each item in list
+			check box and x
+			atoms
+			all buttons
+
+		custom X and customX mark
+		
+
+3 organisms
+	a few moleculesd
+
+props: parameters that are passed from one class to another
+
+	prop could be name of todo list item
+		name =
+
+todo pseudocode:
+2-3 different .js sheets in package for this
+either (
+	app. the main html java doc, todo lists and items are imported into here
+
+		todo list(s) filters lists (either seperate sheet or a toggle of all the list items, all, active, completed)
+	todo list items js with html <li></li>
+
+)
+or    (app
+	todo list and items)
+		
+
+import
+export default app;
+	app
+
+
+title
+	list group
+		all
+		active
+		completed
+	search bar
+		render as input is typed in, 
+			no search button
+	list  item button
+	list items
+		complete, remove to completed list
+local storage
+	through browser, not react
+
+	Window.localStorage
+		save things in local storage
+			save all todo list data in browser
+				local data stays 
+				Cookies are session data (saved like this but for a temporary period of time)
+		method of Window
+			key value pairs
+			key
+				name:
+					Value: 
+						ian
+
+			like document.getelementbyID is method of Document
+
+
+
+	react just javascript with html inside,  life cycles, packages
+bootstrap 5 for react
+
+
+use bootstrap@next
+	iin local storage assignment page
+
+class app extends components {
+	use render
+	use constructor
+	local storage
+	array methods 
+		react loves array methods
+			returns elements, unlike for loops (doesn’t like for loops)
+			.forEach is a good example
+			.map too, 
+			you can chain the methods together
+			sort (timestamp
+			filter(all, active, completed)
+			find()
+				better at finding objects, in array than individual items
+			find [{id:120},{id:130},]
+					find(id== 130)
+			sort()
+
+			findIndex()
+			includes()
+				True or false
+
+
+
+.map()
+	applies a defined function to each index of one array and returns it to a new array
+objects are faster than array
+
+	find by key faster
+array is slower
+	all methods are loops
+
+
+.filter
+.find
+.findindex 
+		 // though project is possible without findIndex
+.map
+.reduce
+.sort
+		
+
+const object1 = {
+	a: ‘some string’,
+	b: 42,	
+	c: cheese
+		
+
+	
+object.keys ()
+
+don’t worry about launching json file
+	syntax highlights is whats important
+
+
+
+	
+object is just a smart set / a smart array
+
+avoid using classes as much as possible, 
+	hook
+		use State without a class
+	
+
+state is almost like time-specific values listed in an automation clips
+		so the automation clip would be the lifecycle
+		where the event changing state is a constant based on each instance of time passing bpm
+
+
+
+angular sucks
+	if any says they’re an angular dev, tell them i’m sorry
+
+
+
+
+enter page
+	
+above the fold
+	more important
+	headline
+	subheadline
+	call to action
+below the fold
+splash page 
+		start of personal brand
+
+		unexpected animations, 
+		hover actions
+		consistent strokes
+		icon styles
+		imagery color
+
+		remember end user
+			don’t make it over complicated
+tools:
+mockflow.com
+squoosh.app
+canva.com
+figma.com
+color.adobe.com
+typenugget.com
+
+images:
+pixels.com
+unsplash.com
+graphictwister.com
+mockupworld.com
+
+
+flaticon.com
+iconfinder.com
+icons8.com
+
+
+
+
+      <ul className="ToDoUl">
+        {
+            props.list.map((item, idex)=> {return() })
+
+
+        }
+
+        </ul>
